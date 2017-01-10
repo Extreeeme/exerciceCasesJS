@@ -1,6 +1,6 @@
-var nbCase = prompt("Entrez un nombre de case");
+var nbCase = prompt("Entrez un nombre entier de case sans dépasser 800");
 
-if(nbCase < 800 && nbCase == parseInt(nbCase)){
+if(nbCase < 800 && nbCase == parseInt(nbCase)){ //Sécurité anti-Julien
 
 	for (var i = 1; i <=nbCase; i++) {
 
