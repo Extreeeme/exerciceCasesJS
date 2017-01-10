@@ -1,62 +1,51 @@
-body{
+body{ 							/*Réinitisation du body */
 	padding : 0px;
 	margin: 0px;
-	background-color: #87d8a0;
+	background-color: #87d8a0;	/*Couleur du background */
 }
 
 
-#container{
-	display: flex;
-	background-color : #61cb82;
-	flex-direction: column;
-	margin: 20px;
-	justify-content: center;
-	align-content: center;
+#container{						/*Div principale*/
+	display: flex;				/*Utilisation de Flex pour la div qui contient le titre et la future liste (ainsi que les images cachées*/
+	background-color : #61cb82;	/*Couleur de fond */
+	flex-direction: column;		/*Disposition des éléments en colonne */
+	margin: 20px;				/*Margin pour la consigne jolie */
+	justify-content: center;	
+	align-content: center;		/*Centrage si jamais le javacript  n'est pas activé (pour les images du doigt) */
 	align-items: center;
 	text-align: center;
 }
 
-ul{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+ul{								/*Liste*/
+	display: flex;				/*Utilisation de Flex pour la liste*/
+	flex-wrap: wrap;			/*Les éléments reviennent à ligne si le contenu dépasse*/
+	justify-content: center;	/*Centrage des éléments*/
 	align-items: center;
 	align-content: center;
-	padding: 0px;
+	padding: 0px;				/*Réinitilisation des listes PARCE QUE PAR DEFAUT Y'A UN PADDING PUTAIN */
 }
 
-li{
-	list-style: none;
-	background-color: #3fba66;
-	border: 1px solid white;
-	width : 40px;
-	height: 40px;
-	color : white;
-	font-size: 1.5em;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
+li{								/*Eléments de la liste*/		
+	background-color: #3fba66;	/*Couleur du background */
+	border: 1px solid white;	/*Création de la bordure des nombres (1px d'épaisseur, trait plein, couleur blanche*/
+	width : 40px;				/*Largeur des cases*/
+	height: 40px;				/*Hauteur des cases*/
+	color : white;				/*Couleur de la police*/
+	font-size: 1.5em;			/*Taille de la police*/
+	overflow: hidden;			/*Cache les caractères qui dépasse des cases*/
+	display: flex;				/*Utilisation de Flex pour les nombres*/
+	align-items: center;		/*Centrage des nombres*/
 	justify-content: center;
 }
 
-h1{
-	background-color: #276c3d;
-	color :white;
-	width: 50%;
-	align-self: center;
-	text-align: center;
-	padding: 30px;
-	border: 1px solid white;
-	border-radius: 10px;
+h1{								/*Mise en forme du titre h1*/
+	background-color: #276c3d;	/*Couleur du background*/
+	color :white;				/*Couleur de la police*/
+	width: 50%;					/*Taille du fond du titre à 50% de la page*/
+	align-self: center;			/*Centrage du fond*/
+	text-align: center;			/*Centrage du titre*/
+	padding: 30px;				/*Marge intérieure parce que ça fait plus joli*/
+	border: 1px solid white;	/*Création de la bordure blanche*/
+	border-radius: 10px;		/*Arrondis sur les coins de la bordure*/
 }
 
-p{
-	color :white;
-	font-size: 3em;
-}
-
-noscript{
-	justify-content: center;
-	align-content: center;
-	align-items: center;
-}

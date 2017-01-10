@@ -8,3 +8,5 @@ depasse de la page
 5. Si Javascript désactivé, message d'erreur
 
 ###RESPONSIVE
+
+#LE CODE EST ENTIEREMENT COMMENTE
