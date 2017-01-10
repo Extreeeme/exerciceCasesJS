@@ -1,6 +1,6 @@
 var nbCase = prompt("Entrez un nombre entier de case sans dépasser 800");		//Déclaration de la variable qui contient le nombre de cases
 
-if(nbCase < 800 && nbCase == parseInt(nbCase)){									//Sécurité anti-Julien
+if(nbCase < 800 && nbCase == parseInt(nbCase)){									//Sécurité PAJ (Protection Anti Julien)
 
 	for (var i = 1; i <=nbCase; i++) {											//Création de la boucle, initialisation du i, i=i+1 jusqu'au nombre de case
 
